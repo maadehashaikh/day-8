@@ -1,0 +1,17 @@
+mongodb installation 
+mongodb connection 
+schema 
+model
+CRUD
+
+STEPS WE FOLLOWED =>
+npm init -y (main mai index.js ko we did app.js)
+npm i express
+npm i mongoose
+why mongoose ? we know that we have application server and database server so to connect them we use monngoose 
+what is ORM ? ORM is relational mapping basically a technique to query or perfrom CRUD opeartions to database
+what is ODM ? Object Document mapping it is like an ORM for non relational databases such as mongoDB
+
+
+
+

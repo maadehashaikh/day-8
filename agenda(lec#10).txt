@@ -1,0 +1,37 @@
+Data Storage 
+matlb aisa kuch jahn par hm saray users ki info store kar skty hain 
+file kay andar bh to we can store data but what actually happens kay file is not an efiicient way to store data and  file can not store images , videos and big files so what's the logic  to use it ? just for text 
+here's come database which can store files, videos , images etc
+
+TYPES OF DBS
+SQL => data ko aik structure mai rakhna - tables like (rows and colums)
+data scatered he hota h but woh aisay connected h kay usay tabular form mai likhna is much easy to write 
+NoSQL => not only SQL (its a concept that is mai data objects ki form mai rkha jay ga)
+is mai tables nh hoti hain object ki form mai data store hota h yahn p its easy as we have learn js 
+mongoDB actually  hamary DB ka name h jo kay follow karta h noSQL ko   
+
+what and why 
+in order to store data and access and record it we uses databases 
+
+terminologies - collections , documents , schemas , keys , models
+we need to understand that backend term contains two major parts => 1- Application Server 2- database Server 
+In our case we can consider that Application Server is NODE.js and database Server is mongoDB
+Application server basically routes ko handle karta h and request ko accept karta h in simple words Application server ka kam h sab kuch karna bus data kay ilawa like  login log out 
+ab database server ka main kam yeh h kay jaisy he Application server ko koi data chahiyay hota h ya phr su ko check karna h kay database mai yeh data h ya nh to he woh db ko call kar kay poochta h and db usko repsonse kardyta h acc to its need .
+
+database Server 
+fB kay pass customer collection hoga user collection hoga add collection hoga 
+database => collection (alag alag type ka data hoga jo kay collection kehlata h) => document (1 person)
+
+Code(mai yeh likhny say yeh hota h)      DataBase(mai yeh create hota h)
+-----------------------------------      ----------------------------------
+mongoose.connect                         database create ho jata h 
+model create                             collection(banta h if we made user model to woh user collection bny ga)
+CREATE                                   document (banta h)
+
+
+
+
+
+
+
