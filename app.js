@@ -10,9 +10,9 @@ app.get('/',(req,res)=>{
 
 app.get('/create',async (req,res)=>{
   let createdUser = await userModel.create({              // 
-    name:"Ali",              //       this all code is asynchronous code 
-    username:"Ali shaikh",  //
-    email:"Ali@gmail.com" //   
+    name:"Alyan",              //       this all code is asynchronous code 
+    username:"Alyan shaikh",  //
+    email:"Alyan@gmail.com" //   
   })                          //
   res.send(createdUser);     //           this is synchronous code 
   // and we must know that synchronous code pehly chlta h asynchronous bad mai 

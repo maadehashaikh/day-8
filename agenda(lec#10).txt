@@ -14,20 +14,22 @@ what and why
 in order to store data and access and record it we uses databases 
 
 terminologies - collections , documents , schemas , keys , models
-we need to understand that backend term contains two major parts => 1- Application Server 2- database Server 
+
+we need to understand that backend term contains two major parts => 
+1- Application Server 2- database Server 
 In our case we can consider that Application Server is NODE.js and database Server is mongoDB
 Application server basically routes ko handle karta h and request ko accept karta h in simple words Application server ka kam h sab kuch karna bus data kay ilawa like  login log out 
-ab database server ka main kam yeh h kay jaisy he Application server ko koi data chahiyay hota h ya phr su ko check karna h kay database mai yeh data h ya nh to he woh db ko call kar kay poochta h and db usko repsonse kardyta h acc to its need .
+ab database server ka main kam yeh h kay jaisy he Application server ko koi data chahiyay hota h ya phr us ko check karna h kay database mai yeh data h ya nh to he woh db ko call kar kay poochta h and db usko repsonse kardyta h acc to its need .
 
 database Server 
-fB kay pass customer collection hoga user collection hoga add collection hoga 
+fB kay pass customer collection hoga user collection hoga adds collection hoga 
 database => collection (alag alag type ka data hoga jo kay collection kehlata h) => document (1 person)
 
 Code(mai yeh likhny say yeh hota h)      DataBase(mai yeh create hota h)
 -----------------------------------      ----------------------------------
-mongoose.connect                         database create ho jata h 
-model create                             collection(banta h if we made user model to woh user collection bny ga)
-CREATE                                   document (banta h)
+mongoose.connect  database create ho jata h 
+model create      collection(banta h if we made user model to woh user collection bny ga)
+CREATE            document (banta h)
 
 
 
