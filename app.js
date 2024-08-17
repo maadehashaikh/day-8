@@ -10,9 +10,9 @@ app.get('/',(req,res)=>{
 
 app.get('/create',async (req,res)=>{
   let createdUser = await userModel.create({              // 
-    name:"maryam",              //       this all code is asynchronous code 
-    username:"maryam shaikh",  //
-    email:"maryam@gmail.com" //   
+    name:"Ali",              //       this all code is asynchronous code 
+    username:"Ali shaikh",  //
+    email:"Ali@gmail.com" //   
   })                          //
   res.send(createdUser);     //           this is synchronous code 
   // and we must know that synchronous code pehly chlta h asynchronous bad mai 
@@ -21,7 +21,7 @@ app.get('/create',async (req,res)=>{
  }) 
 
 app.get('/update',async (req,res)=>{ 
-  let updatedUser = await userModel.findOneAndUpdate({name:"maadeha"},{name:"maryam"},{new:true});
+  let updatedUser = await userModel.findOneAndUpdate({name:"Ali"},{name:"M.Ali"},{new:true});
   res.send(updatedUser);
   })
 
@@ -31,7 +31,7 @@ app.get('/read', async (req,res) => {
   })  
   
   app.get('/delete', async (req,res) => { 
-    let users = await userModel.findOneAndDelete({name:"maadeha"});
+    let users = await userModel.findOneAndDelete({name:"M.Ali"});
     res.send(users);
   })  
 

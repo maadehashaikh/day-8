@@ -8,7 +8,7 @@ SQL => data ko aik structure mai rakhna - tables like (rows and colums)
 data scatered he hota h but woh aisay connected h kay usay tabular form mai likhna is much easy to write 
 NoSQL => not only SQL (its a concept that is mai data objects ki form mai rkha jay ga)
 is mai tables nh hoti hain object ki form mai data store hota h yahn p its easy as we have learn js 
-mongoDB actually  hamary DB ka name h jo kay follow karta h noSQL ko   
+mongoDB actually  hamary DB ka name h jo kay follow karta h noSQL concept ko   
 
 what and why 
 in order to store data and access and record it we uses databases 
